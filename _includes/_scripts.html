@@ -18,7 +18,12 @@
       $o.attr('id', id).empty();
       diagram.drawSVG(id);
     });
-    $('.navigation-wrapper').headroom();
+    
+    var myElement = document.querySelector(".navigation-wrapper");
+    // construct an instance of Headroom, passing the element
+    var headroom  = new Headroom(myElement);
+    // initialise
+    headroom.init(); 
   });
 </script>
 
