@@ -3,7 +3,7 @@ layout: page
 title: About the author
 tags: [about, gilles]
 image:
-  feature: https://goo.gl/Xxonh7
+  feature: sky.jpeg
 ---
 
 ## PhD - High Speed Silicon Optical Modulator
