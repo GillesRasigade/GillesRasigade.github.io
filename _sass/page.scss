@@ -744,6 +744,15 @@ $button-size: 1.5rem;
 	text-align: center;
 }
 
+.navigation-wrapper {
+	position: fixed;
+	top: 0px;
+}
+
+#main {
+	padding-top: 84px;
+}
+
 /**
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
