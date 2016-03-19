@@ -757,6 +757,13 @@ $button-size: 1.5rem;
 
 #table-of-contents {
 	position: fixed;	
+	background: none;
+}
+
+#table-of-contents a {
+	background-color: white;
+    	opacity: 0.9;
+    	color: black;
 }
 
 /**
