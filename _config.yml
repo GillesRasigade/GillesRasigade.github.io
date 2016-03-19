@@ -50,13 +50,13 @@ owner:
   facebook: #username
   google:
     plus: gillesrasigade
-    analytics:
+    analytics: UA-1428300-4
     verify:
     ad-client:
     ad-slot:
   bing-verify:
   github: GillesRasigade
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 5186645/gilles-rasigade  # from a "http://stackoverflow.com/users/123456/username" link
   linkedin: gillesrasigade
   xing: #username
   instagram: #username
