@@ -6,7 +6,7 @@ image:
   feature: https://goo.gl/Xxonh7
 ---
 
-# PhD - High Speed Silicon Optical Modulator
+## PhD - High Speed Silicon Optical Modulator
 
 [PhD Thesis (pdf)](https://drive.google.com/file/d/0B9PEvSdE5LlRMzAwOGMxOTAtNDI0ZS00YjliLThmZmYtN2ZmNjBkNDU2NDlj/view)
 
