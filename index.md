@@ -3,7 +3,5 @@ layout: home
 excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: https://lh3.googleusercontent.com/rDKAhl3g12OnGc0tLG6PmPFxPfGcaqjwDbmHnkxYXci5MSdc3P9Wf2VMjdbq_NwAOVdfIDvnBLn7yQlo_lbC_8QXGFbtNDDrEwSdzYHmbC5jV5FHtsG9aBTPDBsmw8qCyDlSMLf0TQfXJh8-ZnZ8FD0C2na3hwSPV0OKr_sxuJQG7JhW48d7bejL97-2pBHphMtBcT7am5ZRGE7uMoudjtSzPfanooDDbETl_-GvFaojVbLt44JoPNOXg2IQhvhCiW43ByX78vsAJLc5GXjjGuS8scnVC0OMHRh-vza366Di1AV_cGsXH_mMIN4jI7R1OUbO4xNUiLsbvb67PiFTydJVy-nzSEURbpTNLRjYZwg1RTzXUYca7JOSCeRag5xx-jz-J6O259KYJdx7ME4UWvj7QOWPZ1U62h08IbBJwUf_iKkuaXBUPdZa8tPaUdUnImlzWQhqM_4Rp5kGUuAmSw5ePHoXxdE1cpLKRwc2yV3vGapw1hMJKE3gIHY-AEi_kcg3idlmHZN9hHTP-2xY1rxgA0DybLgln4ocamDYG8mX7QtQLw1ONXdE1601fGav_kfU=w1363-h512-no
 ---
