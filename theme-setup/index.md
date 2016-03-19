@@ -4,7 +4,7 @@ title: Theme Setup
 modified: 2016-01-19
 excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
 image:
-  feature: sample-image-3.jpg
+  feature: https://lh5.googleusercontent.com/-eZiH2_h6OQ4/UvZ0Ax4HqOI/AAAAAAAAAUs/u6lONQW3G9A/w1718-h500-no/IMG_4229.JPG
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
