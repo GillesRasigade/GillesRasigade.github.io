@@ -758,6 +758,8 @@ $button-size: 1.5rem;
 #table-of-contents {
 	position: fixed;	
 	background: none;
+	top: 57px;
+    	z-index: 9999;
 }
 
 #table-of-contents a {
