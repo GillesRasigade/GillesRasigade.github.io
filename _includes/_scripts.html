@@ -12,9 +12,9 @@
     $('.language-flow').each(function(i,o){
       var $o = $(o);
       var text = $o.text();
-      var id = Math.round(Math.random()*1e6);
+      var id = 'flow-'+Math.round(Math.random()*1e6);
       var diagram = flowchart.parse(text);
-      $o.attr('id', 'flow-'+id).empty();
+      $o.attr('id', id).empty();
       diagram.drawSVG(id);
     });
   });
