@@ -755,6 +755,10 @@ $button-size: 1.5rem;
 	padding-top: 100px;
 }
 
+#table-of-contents {
+	position: fixed;	
+}
+
 /**
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
