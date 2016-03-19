@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            
+title:
 locale:           en_US
-url:
+url:              https://gillesrasigade.github.io
 
 
 # Jekyll configuration
