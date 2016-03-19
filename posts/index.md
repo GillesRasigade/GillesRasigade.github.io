@@ -1,5 +1,7 @@
 ---
 layout: post-index
 title: All Posts
-excerpt: "A List of Posts"
+excerpt: "List of posts"
+image:
+  feature: sky.jpeg
 ---
