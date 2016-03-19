@@ -3,5 +3,5 @@ layout: home
 excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: https://lh3.googleusercontent.com/CRyI3fWIaAoeZqTpSN0TC_weS9TV-PntgTaxKnArB_pSe6aJJCvx2uegPABmvk-rDN3El4GsRGgyV_TLUagaRt3x-jNL2mJb1U-Rp_hI5ThxfkAsYIcaLu1Sx1sSzYdOtt6u1EAhpNiKHRhbw4baWUgNt7BgWN_LQRcbEcxmkVXAu4PJzbPH1Ihr_GgxvhSMpLu-u-Et2U4xsgayf4urIdovvJrOEbp6xP9liw1-isYXPrtR7uNfXxqdQcoFIOpGyPmyPpIknIcZLASREyECBdudDFm321VvzVG-o57dAJOQa_U30RnnA9dximsyqqUeJITl21bqWK10CStES1qL0uMkOxXqaZoqG4hAFU0dyMRBVrh3gse3zdwYQxf5BZPzsqz9n_bICGeAsECvxFo1iHCt9y3qNh1PiqitcA4SGWtHxhJKZjkyrn2qH_2Lrwcwqs-ATqa7h92olS4_kJGqGtJIAjJgjBFdtOdGD_dkqftKrU6NLK5YDJMrNCNMUYFmijHMoSgeduEDGkjsVURGpQHxJAHOWS6HIQyDN9RLIVoZ54cs8hzDE75RdFPkPaO9Um1R=w1363-h281-no
+  feature: https://goo.gl/Xxonh7
 ---
