@@ -14,7 +14,9 @@ image:
 
 ## MESH
 
-## [Simple Music Player](https://plus.google.com/photos/114351935390356891334/albums/5872394486051032769)
+## Simple Music Player
+
+[Galery](https://plus.google.com/photos/114351935390356891334/albums/5872394486051032769)
 
 The Simple Music Player is a web application allowing anyone to listen its mp3 music library over streaming on Desktop, Tablet or mobile devices.
 
