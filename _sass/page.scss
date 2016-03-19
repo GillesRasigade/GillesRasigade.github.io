@@ -738,3 +738,8 @@ $button-size: 1.5rem;
 #goog-wm-sb {
 	@extend .btn;
 }
+
+.language-sequence, .language-flow {
+	display: block;
+	text-align: center;
+}
