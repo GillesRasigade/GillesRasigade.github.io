@@ -28,7 +28,7 @@ The User Interface was trying to reproduce with CSS3 effects the iTunes native a
 
 ## solverFDM
 
-Development of an anisotropic fully vectorial electro-optical mode solver for 2D simulations.
+Development of an anisotropic fully vectorial electro-optical mode solver for 2D simulations. Based on the [Waveguide Mode Solver](http://www.mathworks.com/matlabcentral/fileexchange/12734-waveguide-mode-solver) of Thomas Murphy.
 
 - Matlab / Graphical User Interface / Open Source
 - FDFD / FEM
