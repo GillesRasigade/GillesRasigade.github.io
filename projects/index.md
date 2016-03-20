@@ -38,4 +38,8 @@ Development of an anisotropic fully vectorial electro-optical mode solver for 2D
 
 ![solverFDM welcome screen](https://lh3.googleusercontent.com/cnN6Cc_x-B3d7DECpD0hjpqzkhurlatNQ1EUsdGpv1YwfHwetdMR6cAG-4Lb-C33LHy8=w1366-h768-rw-no)
 
+> Welcome screen
+
 ![solverFDM optical mode power computation](https://lh3.googleusercontent.com/Zf47xUIEJ4rKFnhGe4w8Rj2vI8FUqfXfwTt3Ty33--w_zuvonwqfXET8FCNKrilfnNgA=w1366-h768-rw-no)
+
+> Power computation for a silicon rib waveguide
