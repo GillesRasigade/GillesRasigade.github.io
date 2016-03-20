@@ -769,6 +769,14 @@ $button-size: 1.5rem;
     	border-bottom: 1px solid #eee;
 }
 
+article img {
+	border: 1px solid #ddd;
+    	padding: 3px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+}
+
 /**
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
