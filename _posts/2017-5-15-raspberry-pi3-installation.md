@@ -14,7 +14,7 @@ $> d (all), n, p --> yes, t, b (FAT32), w
 sudo mkfs.vfat /dev/mmcblk0p1
 ```
 
-> http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/
+> [http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/](http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/)
 
 ### Copy the Ubuntu server image to the card
 
@@ -23,7 +23,7 @@ xzcat ~/Downloads/ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz | sudo dd
 sync
 ```
 
-> https://ubuntu-pi-flavour-maker.org/download/
+> [https://ubuntu-pi-flavour-maker.org/download/](https://ubuntu-pi-flavour-maker.org/download/)
 
 Insert the card into the Raspberry and boot it with an ethernet connection available.
 
@@ -53,6 +53,6 @@ device_tree_address=0x02008000
 ...
 ```
 
-> https://raspberrypi.stackexchange.com/a/62384
+> [https://raspberrypi.stackexchange.com/a/62384](https://raspberrypi.stackexchange.com/a/62384)
 
 Reboot the Raspberry and all must be ok.
