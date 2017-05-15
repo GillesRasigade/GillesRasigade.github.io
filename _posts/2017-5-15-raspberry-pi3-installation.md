@@ -5,7 +5,7 @@ title: Raspberry Pi 3 installation
 
 Overall process to install [Ubuntu Server 16.04](http://releases.ubuntu.com/16.04/) on a [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/).
 
-## Insert the microSD card
+## Insert the microSD card [^1]
 
 ```bash
 sudo fdisk -l
@@ -55,4 +55,6 @@ device_tree_address=0x02008000
 
 > [https://raspberrypi.stackexchange.com/a/62384](https://raspberrypi.stackexchange.com/a/62384)
 
-Reboot the Raspberry and all must be ok.
+Reboot the Raspberry and all must be ok [^footnote].
+
+[^1]: [http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/](http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/)
