@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu Server 16.04 installation on a Raspberry Pi&nbsp;3
+title: Ubuntu Server 16.04 installation on a Raspberry&nbsp;Pi&nbsp;3
 ---
 
 Overall process to install [Ubuntu Server 16.04](http://releases.ubuntu.com/16.04/) on a [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/).
