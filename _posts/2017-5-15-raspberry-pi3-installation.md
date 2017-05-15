@@ -3,6 +3,8 @@ layout: post
 title: Raspberry pi3 installation
 ---
 
+Overall process to install Ubuntu Server 16.04 on a Raspberry Pi 3 Model B.
+
 ## Insert the microSD card
 
 ```bash
