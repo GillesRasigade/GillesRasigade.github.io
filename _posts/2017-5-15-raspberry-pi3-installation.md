@@ -3,9 +3,7 @@ layout: post
 title: Raspberry pi3 installation
 ---
 
-## Raspberry pi3
-
-### Insert the microSD card
+## Insert the microSD card
 
 ```bash
 sudo fdisk -l
@@ -16,7 +14,7 @@ sudo mkfs.vfat /dev/mmcblk0p1
 
 > [http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/](http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/)
 
-### Copy the Ubuntu server image to the card
+## Copy the Ubuntu server image to the card
 
 ```bash
 xzcat ~/Downloads/ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz | sudo dd of=/dev/mmcblk0 bs=4M
@@ -27,7 +25,7 @@ sync
 
 Insert the card into the Raspberry and boot it with an ethernet connection available.
 
-### Upgrade package
+## Upgrade package
 
 ```bash
 ssh ubuntu@192.168.x.x
