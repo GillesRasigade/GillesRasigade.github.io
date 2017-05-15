@@ -8,6 +8,8 @@ image:
 
 {% include _toc.html %}
 
+Keywords: CQRS, Event-Sourcing, RESTful API, DevOps, TDD, Microservices, NodeJS, ES6, React, React Native, HTML5, CSS3,  Scrum Certified, Metrology (ELK, Grafana)
+
 ## PhD - High Speed Silicon Optical Modulator
 
 > [PhD Thesis (pdf)](https://drive.google.com/file/d/0B9PEvSdE5LlRMzAwOGMxOTAtNDI0ZS00YjliLThmZmYtN2ZmNjBkNDU2NDlj/view)
