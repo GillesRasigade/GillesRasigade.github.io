@@ -5,12 +5,12 @@ title: Raspberry pi3 installation
 
 ## Raspberry pi3
 
-### Insert the microSDCard
+### Insert the microSD card
 
 ```bash
 sudo fdisk -l
 sudo fdisk /dev/mmcblk0
-$> d (all), n, p --> yes, t, b (FAT32), w
+# then d (all), n, p --> yes, t, b (FAT32), w
 sudo mkfs.vfat /dev/mmcblk0p1
 ```
 
