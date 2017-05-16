@@ -17,7 +17,7 @@ if (result !== true) {
 }
 ```
 
-The following contracts must be defined:
+I have listed below the most obvious contracts having to be defined.
 
 ### Input
 
@@ -77,7 +77,7 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 `Metrology`: Check real-time activity of your API with applications such as Grafana or Datadog.
 
-`Be defensive`: Think that your users will attack you all during day. They will fall sleep on their keyboards and will start DOS you. You must defend you against internal and external clients of your API. Don't trust anyone.
+`Be defensive`: Think that your users will attack you all during day. They will fall sleep on their keyboards and will start DOS you. You must defend you against internal and external clients of your API. *Don't trust anyone.*
 
 ### For your users
 
@@ -87,15 +87,18 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 `Sandbox`: In order to help new users to learn your API, a sandbox environment might be offered. This sandbox has a contract has any other part of the API: availability, data retention, accessibility, etc.
 
+`Terms`: Expose to your users clear terms and conditions. This will help them deciding whether your API is suitable for their applications and if some discussions have to be planned to overcome some situations.
+
 ### For all of you
 
 `Versioning`: An API is an Interface for a given program. By so, it must be versioned. Each time a new route is published to your users, its lifetime is guaranteed by the API contract and any change must then be backward compatible. No regression must appear without anticipated communication.
 
 `Logging`: Keep track of API requests with correctly configured logs. Logs levels are critical because you will wake up on an `Error` but a `Warn`. Don't log useless information. Don't forget useful contextual information. Link logs all together with unique request ids.
 
-
 --------------------------------------
 
 [^1]: [tv4 - https://www.npmjs.com/package/tv4](https://www.npmjs.com/package/tv4)
 
 [^2]: [JSON Schema](http://json-schema.org/)
+
+[^3]: [JSON Schema](http://json-schema.org/)
