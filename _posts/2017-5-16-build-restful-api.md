@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Build a Open API on NodeJS
+title: Build an Open API
 ---
 
 ## Contract is the rule
 
-Write clear an negotiable contracts. In JS, you might use lightweight modules such as tv4 and the standard JSON Schema definition.
+Write clear an negotiable contracts. In JS, you might use lightweight modules such as tv4[^1] and the standard JSON Schema definition[^2].
 
 ```js
 const tv4 = require('tv4');
@@ -93,3 +93,9 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 `Logging`: Keep track of API requests with correctly configured logs. Logs levels are critical because you will wake up on an `Error` but a `Warn`. Don't log useless information. Don't forget useful contextual information. Link logs all together with unique request ids.
 
+
+--------------------------------------
+
+[^1]: [tv4 - https://www.npmjs.com/package/tv4](https://www.npmjs.com/package/tv4)
+
+[^2]: [JSON Schema](http://json-schema.org/)
