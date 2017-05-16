@@ -53,7 +53,7 @@ The most important part in the definition of the contracts is the definition of 
 - Allow to overwrite the lifecycle per API route
 - Define clear, documented and engaged versions life times: major, minor,.<br/>*ie. **major**: 2 years, **minor**: 3 months, **patch**: 1 month* (keep delays credibility)
 
-The RESTful API standard OpenAPI might be helpful to define the contraints listed above but keep in mind that the API you are build is yours and that you will be responsible of its maintenance as well.
+The RESTful API standard OpenAPI[^3] might be helpful to define the constraints listed above but keep in mind that the API you are build is yours and that you will be responsible of its maintenance as well.
 
 ## Respect the Verb
 
@@ -73,23 +73,25 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 `Secret Headers`: In order to secure your API against attackers, private secrets might be shared between customers with time based change.
 
-`Rate Limiter`: Any Public API must have a mechanism of rate limiter per account. The rate limit must be controlled on the entire API deployment and thus, systems like [Redis](), might be used to synchronize nodes to the same value.
+`Rate Limiter`: Any Public API must have a mechanism of rate limiter per account. The rate limit must be controlled on the entire API deployment and thus, systems like [Redis](https://redis.io/), might be used to synchronize nodes to the same value.
 
-`Metrology`: Check real-time activity of your API with applications such as Grafana or Datadog.
+`Metrology`: Check real-time activity of your API with applications such as [Grafana](https://grafana.com/) or [Datadog](https://www.datadoghq.com/).
 
-`Be defensive`: Think that your users will attack you all during day. They will fall sleep on their keyboards and will start DOS you. You must defend you against internal and external clients of your API. *Don't trust anyone.*
+`Be defensive`: Think that your users will attack you all during day. They will fall sleep on their keyboards and will start to [DoS](https://en.wikipedia.org/wiki/Denial-of-service_attack) you. You must defend yourself against internal and external API clients. *Don't trust anyone.*
 
 ### For your users
 
-`Documentation`: All serious APIs have clean, understandable and stable documentation. Ensure your users can read it from anywhere (car, metro, etc.). A standard format would be chosen for the RESTful documentation such as OpenAPI (fka Swagger).
+`Documentation`: All serious APIs have clean, understandable and stable documentation. Ensure your users can read it from anywhere (car, metro, etc.). A standard format would be chosen for the RESTful documentation such as [OpenAPI](https://github.com/OAI/OpenAPI-Specification) (fka [Swagger](https://www.openapis.org/faq#OAIFAQ-Swagger)).
 
 `Developer Website`: In addition to the API documentation a developers' website might be helpful. It must have clear explanations about how to register an account, how to authenticate yourself, how to access the API documentation and up-to-date real life examples.
 
-`Sandbox`: In order to help new users to learn your API, a sandbox environment might be offered. This sandbox has a contract has any other part of the API: availability, data retention, accessibility, etc.
+`Sandbox`: In order to help new users to learn your API, a sandbox environment might be offered. This sandbox has a contract has any other part of the API: availability, data retention, accessibility, etc. It is completely isolated from other systems and some limitations might apply (document them).
 
 `Terms`: Expose to your users clear terms and conditions. This will help them deciding whether your API is suitable for their applications and if some discussions have to be planned to overcome some situations.
 
-### For all of you
+`Cost`: If you API is costing for your customers, specific terms and conditions must be defined with the integration if a payment workflow (registration, recurring payment, failures).
+
+### For both of you
 
 `Versioning`: An API is an Interface for a given program. By so, it must be versioned. Each time a new route is published to your users, its lifetime is guaranteed by the API contract and any change must then be backward compatible. No regression must appear without anticipated communication.
 
@@ -101,4 +103,4 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 [^2]: [JSON Schema](http://json-schema.org/)
 
-[^3]: [JSON Schema](http://json-schema.org/)
+[^3]: [Open API](https://www.openapis.org/)
