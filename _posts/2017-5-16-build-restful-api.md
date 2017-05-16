@@ -19,26 +19,39 @@ if (result !== true) {
 
 The following contracts must be defined:
 
-- Input
-	- Parameters
-		- Path parameters:<br/>`/api/users/:user_id`
-		- Query parameters:<br/>`/api/users/:user_id?fields=name`
-		- Payload definition:<br/> `{type: "object", properties: { ... }}`
-		- Headers requirements:<br/>`Accept, Authorization, Content-Type, ...`
-	- Rate
-		- Not more than $n$ requests per minutes
-		- Not more than $n$ `4xx` errors per minutes
-- Output
-	- Response
-		- Payload response must be validated:<br/> `{type: "object", properties: { ... }}`
-		- Headers must be validated:<br/> `Content-Type, ...`
-		- Response codes:<br/> `200, 202, ...`
-	- Rate
-		- Not more than $n$ `5xx` errors per minutes
-- Versioning
-	- Define the lifecycle of your entire API
-	- Allow to overwrite the lifecycle per API route
-	- Define clear, documented and engaged versions life times: major, minor,.<br/>*ie. **major**: 2 years, **minor**: 3 months, **patch**: 1 month* (keep delays credibility)
+### Input
+
+The most important part in the definition of the contracts is the definition of the inputs. This will engage your clients and protect yourself against bad use.
+
+#### Parameters
+
+- Path parameters:<br/>`/api/users/:user_id`
+- Query parameters:<br/>`/api/users/:user_id?fields=name`
+- Payload definition:<br/> `{type: "object", properties: { ... }}`
+- Headers requirements:<br/>`Accept, Authorization, Content-Type, ...`
+
+#### Rate
+
+- Not more than $n$ requests per minutes
+- Not more than $n$ `4xx` errors per minutes
+
+### Output
+
+#### Response
+
+- Payload response must be validated:<br/> `{type: "object", properties: { ... }}`
+- Headers must be validated:<br/> `Content-Type, ...`
+- Response codes:<br/> `200, 202, ...`
+
+#### Rate
+
+- Not more than $n$ `5xx` errors per minutes
+
+### Versioning
+
+- Define the lifecycle of your entire API
+- Allow to overwrite the lifecycle per API route
+- Define clear, documented and engaged versions life times: major, minor,.<br/>*ie. **major**: 2 years, **minor**: 3 months, **patch**: 1 month* (keep delays credibility)
 
 The RESTful API standard OpenAPI might be helpful to define the contraints listed above but keep in mind that the API you are build is yours and that you will be responsible of its maintenance as well.
 
@@ -70,7 +83,7 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 `Documentation`: All serious APIs have clean, understandable and stable documentation. Ensure your users can read it from anywhere (car, metro, etc.). A standard format would be chosen for the RESTful documentation such as OpenAPI (fka Swagger).
 
-`Developer Website`: In addition to the API documentation
+`Developer Website`: In addition to the API documentation a developers' website might be helpful. It must have clear explanations about how to register an account, how to authenticate yourself, how to access the API documentation and up-to-date real life examples.
 
 `Sandbox`: In order to help new users to learn your API, a sandbox environment might be offered. This sandbox has a contract has any other part of the API: availability, data retention, accessibility, etc.
 
