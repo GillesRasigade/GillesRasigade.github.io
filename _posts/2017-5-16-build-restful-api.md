@@ -3,6 +3,8 @@ layout: post
 title: Build an Open API
 ---
 
+Guidenines  to build contractual, secure and shareable RESTful API.
+
 ## Contract is the rule
 
 Write clear an negotiable contracts. In JS, you might use lightweight modules such as tv4[^1] and the standard JSON Schema definition[^2].
@@ -32,8 +34,8 @@ The most important part in the definition of the contracts is the definition of 
 
 #### Rate
 
-- Not more than $n$ requests per minutes
-- Not more than $n$ `4xx` errors per minutes
+- Not more than *n* requests per minutes
+- Not more than *n* `4xx` errors per minutes
 
 ### Output
 
@@ -45,7 +47,7 @@ The most important part in the definition of the contracts is the definition of 
 
 #### Rate
 
-- Not more than $n$ `5xx` errors per minutes
+- Not more than *n* `5xx` errors per minutes
 
 ### Versioning
 
@@ -53,11 +55,11 @@ The most important part in the definition of the contracts is the definition of 
 - Allow to overwrite the lifecycle per API route
 - Define clear, documented and engaged versions life times: major, minor,.<br/>*ie. **major**: 2 years, **minor**: 3 months, **patch**: 1 month* (keep delays credibility)
 
-The RESTful API standard OpenAPI[^3] might be helpful to define the constraints listed above but keep in mind that the API you are build is yours and that you will be responsible of its maintenance as well.
+The RESTful API standard OpenAPI[^3] might be helpful to define the constraints listed above but keep in mind that the API you are building is yours and that you will be responsible of its (long) maintenance as well.
 
 ## Respect the Verb
 
-A RESTful API is build on top of HTTP verbs. Respect the verbs and use the correct ones. Isolate concerns such read and write.
+A RESTful API is built on top of HTTP verbs. Respect the verbs and use the correct ones. Isolate concerns such as read and write.
 
 ## Minimum requirements
 
@@ -81,7 +83,7 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 ### For your users
 
-`Documentation`: All serious APIs have clean, understandable and stable documentation. Ensure your users can read it from anywhere (car, metro, etc.). A standard format would be chosen for the RESTful documentation such as [OpenAPI](https://github.com/OAI/OpenAPI-Specification) (fka [Swagger](https://www.openapis.org/faq#OAIFAQ-Swagger)).
+`Documentation`: All serious APIs have clean, understandable and stable documentation. Ensure your users can read it from anywhere (car, metro, space :), ...). A standard format would be chosen for the RESTful documentation such as [OpenAPI](https://github.com/OAI/OpenAPI-Specification) (fka [Swagger](https://www.openapis.org/faq#OAIFAQ-Swagger)).
 
 `Developer Website`: In addition to the API documentation a developers' website might be helpful. It must have clear explanations about how to register an account, how to authenticate yourself, how to access the API documentation and up-to-date real life examples.
 
@@ -89,7 +91,7 @@ A RESTful API is build on top of HTTP verbs. Respect the verbs and use the corre
 
 `Terms`: Expose to your users clear terms and conditions. This will help them deciding whether your API is suitable for their applications and if some discussions have to be planned to overcome some situations.
 
-`Cost`: If you API is costing for your customers, specific terms and conditions must be defined with the integration if a payment workflow (registration, recurring payment, failures).
+`Cost`: If your API is costing for your customers, specific terms and conditions must be defined with the integration if a payment workflow (registration, recurring payment, failures).
 
 ### For both of you
 
