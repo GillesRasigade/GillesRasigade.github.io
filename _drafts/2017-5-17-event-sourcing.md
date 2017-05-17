@@ -20,7 +20,7 @@ Two users are buying the  service in same time. The commands are handled by 2 di
 The database  request is:
 
 ```javascript
-# Mongo
+// Mongo
 db.collection('services')
 .findOneAndUpdate({
 	service_id: "service_id",
@@ -90,6 +90,52 @@ The process is then:
 3. Store the resulting document with incremented version only if the version in
    database is greater than or equal.
 
+```javascript
+/**
+ * Main events reduction function (pure function)
+ * @see http://redux.js.org/docs/introduction/ThreePrinciples.html
+ *
+ * @param {object} [state={ version: 0 }] The state to reduce events on
+ * @param {number} state.version=0        The current state version
+ * @param {object} event                  The event to reduce
+ * @returns {object}
+ */
+function reduce(state = { version: 0 }, event) {
+  state.version++;
+  /**
+   * Logical stuff here as well obviously !
+   */
+  return state;
+}
+
+/**
+ * List of events to reduce from scratch
+ */
+const events = [
+  { type: 'signin' },
+  { type: 'update_profile' },
+  { type: 'quote' },
+  { type: 'order' }
+]
+
+let state;
+for (const event of events) {
+  state = reduce(state, event);
+}
+
+console.log('State restored from scratch\t', state);
+
+// New events stored into the collection:
+events.push({ type: 'pay' }, { type: 'signoff' });
+
+// Reduce events from the last state version:
+for (const event of events.slice(state.version)) {
+  state = reduce(state, event);
+}
+
+console.log('State updated after new events\t', state);
+```
+
 ## Snapshots
 
 As you might guess, your `events` database will grow quickly with very little
@@ -104,3 +150,4 @@ into the `events` collection.
 But if some events are removed, this history is changed and the resulting
 consolidated documents as well. To keep track of partial states, we use snapshots
 synced with events.
+
