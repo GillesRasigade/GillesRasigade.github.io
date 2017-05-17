@@ -1,5 +1,5 @@
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -18,12 +18,12 @@
       $o.attr('id', id).empty();
       diagram.drawSVG(id);
     });
-    
+
     var myElement = document.querySelector(".navigation-wrapper");
     // construct an instance of Headroom, passing the element
     var headroom  = new Headroom(myElement);
     // initialise
-    headroom.init(); 
+    headroom.init();
   });
 </script>
 
