@@ -10,6 +10,6 @@ image:
 
 List of availables slides
 
-[Demo](http://rawgit.com/GillesRasigade/reveal.js/master/index.html#/)
+[Demo](https://rawgit.com/GillesRasigade/reveal.js/master/index.html#/)
 
-<iframe width="100%" height="480" src="http://rawgit.com/GillesRasigade/reveal.js/master/index.html#/" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://rawgit.com/GillesRasigade/reveal.js/master/index.html#/" frameborder="0" allowfullscreen></iframe>
