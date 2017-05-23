@@ -10,6 +10,8 @@ image:
 
 List of availables slides
 
-[Demo](https://rawgit.com/GillesRasigade/reveal.js/master/index.html#/)
+# [Reveal.js demonstration](https://rawgit.com/GillesRasigade/reveal.js/master/index.html#/)
+
+This presentation is demonstrating the use of [reveal.js](http://lab.hakim.se/reveal-js/#/) as a powerful slides sharing engine.
 
 <iframe width="100%" height="480" src="https://rawgit.com/GillesRasigade/reveal.js/master/index.html#/" frameborder="0" allowfullscreen></iframe>
