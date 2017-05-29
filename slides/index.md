@@ -6,8 +6,6 @@ image:
   feature: sky.jpeg
 ---
 
-{% include _toc.html %}
-
 List of availables slides
 
 ## 2017 CQRS + Event Sourcing
