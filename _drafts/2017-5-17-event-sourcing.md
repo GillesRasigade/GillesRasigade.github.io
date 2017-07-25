@@ -33,7 +33,7 @@ db.collection('services')
 });
 ```
 
-The most important part is the atomic search and update. This is ensuring that 2 different processes can not decrease the document quantity in same time. One of them will lose. The Mongo write concerns `majority` is validating the world wide replication and ensures that the document update has been replicated in a majority of replicas (and is thus the truth).
+The most important part is the atomic search and update. This is ensuring that 2 different processes can not decrease the document quantity in same time. One of them will lose. The Mongo write concerns `majority` is validating the replication and ensures that the document update has been replicated in a majority of replicas (and is thus the truth).
 
 After these 2 commands, one will succeed, one will fail. Both of them will produce an event. A command always lead to at least one event: failure or success. The process is as following:
 
@@ -69,9 +69,9 @@ An event attached to multiple objects must embed the ids:
 }
 ```
 
-These definitions are allowing us to reduce these events into different collections, folling the Event-Sourcing pattern.
+These definitions are allowing us to reduce these events into different collections, following the Event-Sourcing pattern.
 
-## Reduction
+## Reduction
 
 The `events` are reduced into a single document. As the process is repeated each
 time new events are stored into the database, how do we know which events have
