@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Build an Open API
+date: 2017-05-16
 ---
 
 Guidenines  to build contractual, secure and shareable RESTful API.
@@ -65,7 +66,7 @@ A RESTful API is built on top of HTTP verbs. Respect the verbs and use the corre
 
 ### For yourself
 
-`HTTPS`: No serious API is available over HTTP only. Think about credentials, API keys, and possible personal and confidential data. 
+`HTTPS`: No serious API is available over HTTP only. Think about credentials, API keys, and possible personal and confidential data.
 
 `Authentication`: Which authentication will you use to authenticate your API users ? In order to have decentralized access to your API, [JWT](jwt.io) would be prefered.
 
