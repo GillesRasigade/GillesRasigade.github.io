@@ -8,7 +8,7 @@ image:
 
 <!-- TOC -->
 
-- [Mesh2](#mesh2)
+- [Mesh2 - Second version of the media server](#mesh2---second-version-of-the-media-server)
 - [Mesh - Media Server For Humans](#mesh---media-server-for-humans)
 - [solverFDM](#solverfdm)
 - [Simple Music Player](#simple-music-player)
@@ -19,7 +19,7 @@ image:
 
 List of personal projects
 
-## Mesh2
+## Mesh2 - Second version of the media server
 
 AngularJS single app photos management: OAuth2.0, RESTful API, 100% JS
 
@@ -81,3 +81,4 @@ Key features :
 ## Other projects
 
 - My Little Library
+- Gimbl

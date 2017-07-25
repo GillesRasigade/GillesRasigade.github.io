@@ -6,8 +6,6 @@ image:
   feature: sky.jpeg
 ---
 
-{% include _toc.html %}
-
 Keywords: CQRS, Event-Sourcing, RESTful API, DevOps, TDD, Microservices, NodeJS, ES6, React, React Native, HTML5, CSS3,  Scrum Certified, Metrology (ELK, Grafana)
 
 ## PhD - High Speed Silicon Optical Modulator
