@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Build an Open API
+categories:
+  - api
 date: 2017-05-16
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ubuntu Server 16.04 installation on a Raspberry Pi&nbsp;3
+category: raspberry
 date: 2017-05-15
 ---
 
