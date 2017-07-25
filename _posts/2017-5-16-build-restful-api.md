@@ -2,8 +2,7 @@
 layout: post
 title: Build an Open API
 categories:
-  - software development
-  - api
+  - software-development
 date: 2017-05-16
 ---
 
