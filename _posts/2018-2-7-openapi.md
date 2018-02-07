@@ -16,7 +16,7 @@ The specification is defined along your controllers and bound to your app like a
 
 A secure web version of the documentation is available thanks to the amazing module ReDoc [^2]. One of the most important objective of Open API is to strictly contractualize RESTFul API and share their specifications to others. The key feature of Open API and ReDoc is to always share the most up-to-date definition of your API contract.
 
-Forget discrepancies between j 
+Forget discrepancies between  
 
 --------------------------------------
 
@@ -24,5 +24,5 @@ Forget discrepancies between j
 
 [^2]: [redoc - https://github.com/Rebilly/ReDoc](https://github.com/Rebilly/ReDoc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTk2MjA2MF19
+eyJoaXN0b3J5IjpbODcyMzk1MDIyXX0=
 -->
