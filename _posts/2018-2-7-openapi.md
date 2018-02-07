@@ -31,6 +31,8 @@ The Open API 3.0 is intensively using JSON Schema [^3] implementation. Knowing t
 [^3]: [JSON Schema - http://json-schema.org](http://json-schema.org/)
 
 [^4]: [ajv - https://github.com/epoberezkin/ajv](https://github.com/epoberezkin/ajv)
+
+[^5]: [OpenAPI 3.0 specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDQ5MzQ1Nl19
+eyJoaXN0b3J5IjpbLTMzMTU5NDA0NF19
 -->
