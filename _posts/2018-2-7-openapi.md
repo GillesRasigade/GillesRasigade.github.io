@@ -8,7 +8,6 @@ date: 2018-02-07
 
 Implementing Node.js Open API 3.0 specification with ease with `chpr-openapi`.
 
-
 ## `chpr-openapi`
 
 OpenAPI 3.0 [^1] is the last version of Swagger RESTful API contractualization: an easy and efficient way to contractualize and share your API to other guys.
@@ -35,5 +34,5 @@ The Open API 3.0 is intensively using JSON Schema [^4] implementation. Knowing t
 
 [^5]: [ajv - https://github.com/epoberezkin/ajv](https://github.com/epoberezkin/ajv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDczOTU2NF19
+eyJoaXN0b3J5IjpbODkxMjEzNTMwXX0=
 -->
