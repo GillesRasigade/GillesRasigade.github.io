@@ -109,3 +109,6 @@ A RESTful API is built on top of HTTP verbs. Respect the verbs and use the corre
 [^2]: [JSON Schema](http://json-schema.org/)
 
 [^3]: [Open API](https://www.openapis.org/)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA4MDM1ODEyOV19
+-->
