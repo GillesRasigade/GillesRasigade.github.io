@@ -6,7 +6,7 @@ categories:
 date: 2017-05-16
 ---
 
-Guidenines  to build contractual, secure and shareable RESTful API.
+Guidelines  to build contractual, secure and shareable RESTful API.
 
 ## Contract is the rule
 
@@ -110,5 +110,5 @@ A RESTful API is built on top of HTTP verbs. Respect the verbs and use the corre
 
 [^3]: [Open API](https://www.openapis.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDM1ODEyOV19
+eyJoaXN0b3J5IjpbLTQzNzQzODk5M119
 -->
