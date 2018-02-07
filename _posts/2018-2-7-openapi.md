@@ -29,6 +29,8 @@ The Open API 3.0 is intensively using JSON Schema [^3] implementation. Knowing t
 [^2]: [redoc - https://github.com/Rebilly/ReDoc](https://github.com/Rebilly/ReDoc)
 
 [^3]: [JSON Schema - http://json-schema.org](http://json-schema.org/)
+
+[^9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwODI4OTI1XX0=
+eyJoaXN0b3J5IjpbLTE3NDMwMjE4NTFdfQ==
 -->
