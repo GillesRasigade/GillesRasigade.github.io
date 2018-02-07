@@ -30,7 +30,7 @@ The Open API 3.0 is intensively using JSON Schema [^3] implementation. Knowing t
 
 [^3]: [JSON Schema - http://json-schema.org](http://json-schema.org/)
 
-[^
+[^4]: [ajv
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTMyMTYzNjJdfQ==
+eyJoaXN0b3J5IjpbLTExOTU3ODQ5NzFdfQ==
 -->
