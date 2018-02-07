@@ -18,7 +18,7 @@ A secure web version of the documentation is available thanks to the amazing mod
 
 Forget discrepancies between `apidoc` of `jsdoc` and your API implementation. As `chpr-openapi` is validating input and output on runtime with the same contract as the documentation, you are guaranting to your clients the exact version of your API with no discrepancy risk.
 
-The Open API 3.0 is intensively using JSON Schema [^3] implementation.
+The Open API 3.0 is intensively using JSON Schema [^3] implementation. Knowing these annotations will help you a lot contractualizing your objects, your API in Node.js or any other language.
 
 --------------------------------------
 
@@ -28,5 +28,5 @@ The Open API 3.0 is intensively using JSON Schema [^3] implementation.
 
 [^3]: [JSON Schema - http://json-schema.org](http://json-schema.org/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTQ4OTMzXX0=
+eyJoaXN0b3J5IjpbLTE2OTMwMjE1NzFdfQ==
 -->
