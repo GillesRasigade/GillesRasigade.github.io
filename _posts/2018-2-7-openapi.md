@@ -14,11 +14,12 @@ A useful Node.js library, `chpr-openapi` [^1] is allowing you to add Open API sp
 
 The specification is defined along your controllers and bound to your app like any other middleware. You can define the specification in the better way you decide by just creating a full JS Object validating the Open API 3.0 specification.
 
+A secure web version of the documentation is available thanks to the amazing module 
 
 --------------------------------------
 
 [^1]: [chpr-openapi - https://www.npmjs.com/package/chpr-openapi](https://www.npmjs.com/package/chpr-openapi)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTEwMTM4NV19
+eyJoaXN0b3J5IjpbLTEzNjM1NjM2OF19
 -->
