@@ -10,7 +10,7 @@ Implementing Node.js Open API 3.0 specification with ease with `chpr-openapi`.
 
 ## `chpr-openapi`
 
-OpenAPI is the last version of Swagger RESTful API contractualization: an easy and efficient way to contractualize and share your API to other guys.
+OpenAPI 3.0 [^5] is the last version of Swagger RESTful API contractualization: an easy and efficient way to contractualize and share your API to other guys.
 
 A useful Node.js library, `chpr-openapi` [^1] is allowing you to add Open API specification to your Express API without having your code interweaves with external tool.
 
@@ -34,5 +34,5 @@ The Open API 3.0 is intensively using JSON Schema [^3] implementation. Knowing t
 
 [^5]: [OpenAPI 3.0 specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTU5NDA0NF19
+eyJoaXN0b3J5IjpbMTI0MjYyOTk1OF19
 -->
