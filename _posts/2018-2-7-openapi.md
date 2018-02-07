@@ -14,7 +14,9 @@ A useful Node.js library, `chpr-openapi` [^1] is allowing you to add Open API sp
 
 The specification is defined along your controllers and bound to your app like any other middleware. You can define the specification in the better way you decide by just creating a full JS Object validating the Open API 3.0 specification.
 
-A secure web version of the documentation is available thanks to the amazing module ReDoc [^2]. One of the most important objective of Open API is to contractualize 
+A secure web version of the documentation is available thanks to the amazing module ReDoc [^2]. One of the most important objective of Open API is to strictly contractualize RESTFul API and share their specifications to others. The key feature of Open API and ReDoc is to always share the most up-to-date definition of your API contract.
+
+Forget discrepancies  
 
 --------------------------------------
 
@@ -22,5 +24,5 @@ A secure web version of the documentation is available thanks to the amazing mod
 
 [^2]: [redoc - https://github.com/Rebilly/ReDoc](https://github.com/Rebilly/ReDoc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTUxOTU3MF19
+eyJoaXN0b3J5IjpbMzUwNTczODYyXX0=
 -->
