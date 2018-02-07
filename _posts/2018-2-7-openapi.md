@@ -20,6 +20,7 @@ A secure web version of the documentation is available thanks to the amazing mod
 
 [^1]: [chpr-openapi - https://www.npmjs.com/package/chpr-openapi](https://www.npmjs.com/package/chpr-openapi)
 
+[^2]: [redoc - https://github.com/Rebilly/ReDoc](https://github.com/Rebilly/ReDoc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM1NjM2OF19
+eyJoaXN0b3J5IjpbOTQwMTkyODc1XX0=
 -->
