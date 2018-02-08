@@ -22,8 +22,6 @@ Forget discrepancies between `apidoc` of `jsdoc` and your API implementation. As
 
 The Open API 3.0 is intensively using JSON Schema [^4] implementation. Knowing these annotations will help you a lot contractualizing your objects, your API in Node.js or any other language. The module `chpr-openapi` is using `ajv` [^5] library to check inputs blazing fast.
 
---------------------------------------
-
 [^1]: [OpenAPI 3.0 specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md)
 
 [^2]: [chpr-openapi - https://www.npmjs.com/package/chpr-openapi](https://www.npmjs.com/package/chpr-openapi)
@@ -34,5 +32,5 @@ The Open API 3.0 is intensively using JSON Schema [^4] implementation. Knowing t
 
 [^5]: [ajv - https://github.com/epoberezkin/ajv](https://github.com/epoberezkin/ajv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMjEzNTMwXX0=
+eyJoaXN0b3J5IjpbMzE5MjcxMTI2XX0=
 -->
