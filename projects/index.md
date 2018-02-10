@@ -21,6 +21,7 @@ List of personal projects
 
 ## Raymond
 
+[Project page](./raymond-machine-learning-project)
 
 ## Mesh2 - Second version of the media server
 
@@ -86,5 +87,5 @@ Key features :
 - My Little Library
 - Gimbl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkwNzk5MDBdfQ==
+eyJoaXN0b3J5IjpbMTAyNTk0NjI0MV19
 -->
