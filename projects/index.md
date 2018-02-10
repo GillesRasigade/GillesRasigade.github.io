@@ -21,7 +21,6 @@ List of personal projects
 
 ## Raymond
 
-    enter code here
 
 ## Mesh2 - Second version of the media server
 
@@ -87,5 +86,5 @@ Key features :
 - My Little Library
 - Gimbl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDQzNjUyN119
+eyJoaXN0b3J5IjpbLTIwMzkwNzk5MDBdfQ==
 -->
