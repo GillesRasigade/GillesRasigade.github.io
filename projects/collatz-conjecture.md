@@ -8,7 +8,7 @@ categories:
 date: 2018-05-15
 ---
 
-This very first article [^1] is interesting.
+This very first article[^1] is interesting.
 
 The following formula is obtained by applying $$n$$ times the reverse function $$f$$ to a number $$a \in \mathbb{N}$$:
 
@@ -314,4 +314,4 @@ $$
 
 ---
 
-[^1] [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
+[^1]: [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
