@@ -6,8 +6,10 @@ image:
   feature: sky.jpeg
 ---
 
-<!-- TOC -->
+<!-- TOC depthFrom:2 -->
 
+- [Raymond](#raymond)
+- [Notes about the Collatz conjecture](#notes-about-the-collatz-conjecture)
 - [Mesh2 - Second version of the media server](#mesh2---second-version-of-the-media-server)
 - [Mesh - Media Server For Humans](#mesh---media-server-for-humans)
 - [solverFDM](#solverfdm)
@@ -17,11 +19,19 @@ image:
 
 <!-- /TOC -->
 
-List of personal projects
+Please find below a list of some personal projects I am trying to working on :D!
 
 ## Raymond
 
+AutoML project to learn kind of things (Python, Node.js)
+
 [Project page](./raymond-machine-learning-project)
+
+## Notes about the Collatz conjecture
+
+Notes about the Collatz conjecture also known as Syracuse Problem.
+
+[Project page](./collatz-conjecture)
 
 ## Mesh2 - Second version of the media server
 

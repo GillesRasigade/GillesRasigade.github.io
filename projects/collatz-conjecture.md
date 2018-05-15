@@ -8,10 +8,6 @@ categories:
 date: 2018-05-15
 ---
 
-Notes about the Collatz conjecture
-
-# Collatz Conjecture
-
 This very first article [^1] is interesting.
 
 The following formula is obtained by applying $$n$$ times the reverse function $$f$$ to a number $$a \in \mathbb{N}$$:
